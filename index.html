@@ -22,22 +22,34 @@
               <i class="fa fa-bars"></i>
             </a>
       </div>
-    <img src="img/hour.jpg" height="450px" width="1300px"> 
-    <!-- <div class="w3-content w3-section" style="max-width:500px">
-        <div class="item">
-            <a href="/category/?image=architecture"><img class="mySlides" src="img/tech4.jpeg" style="width:500px;" id="car" alt="Chicago"></a>
-            <div class="carousel-caption">
-              <h3 class="names">Game Development</h3>
-            </div>
+      <div class="cointainer-fluid" style="background-color:whitesmoke">
+        <div class="row">
+          <div class="col-md-6" >
+              <div class="w3-content w3-section" >
+                  <img class="mySlides" src="img/image.jpg" height="300px" width="650px" >
+                  <img class="mySlides" src="img/image.jpg" height="300px" width="650px" >
+                  <div class="bg-text">
+                    <h1>I am John Doe</h1>
+                    <p>And I'm a Photographer</p>
+                  </div>
+                  
+                </div> 
           </div>
-          <div class="item">
-              <a href="/category/?image=architecture"><img class="mySlides" src="img/photo6.jpeg" style="width:500px "id="car" alt="Chicago"></a>
-              <div class="carousel-caption">
-                <h3 class="names">Game Development</h3>
+          <div class="col-md-6" height="100" width="">
+              <div class="leo" >
+                <img src="img/apple.jpg" height="300px" width="625px" > 
               </div>
-            </div>
-    </div> -->
+              <div class="Hour" >
+                <img src="img/apple.jpg"  height="300px" width="625px"> 
+                
+              </div>
+          </div>
+        </div>
+      </div>
     
+
+    <!-- <img src="img/hour.jpg" height="450px" width="1300px">  -->
+     
     <div class="container-fluid" style="background-color:black">
         <h1 style="text-align:center;color: whitesmoke;padding-bottom: 30px;font-family: 'Itim', cursive">ABOUT US</h1>
         <div class="row row1"> 
@@ -132,6 +144,47 @@
 
 <style>
 
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("photographer.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
   
  .mySlides {display:none;} 
 /* Make sure that padding behaves as expected */
